@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom/client'
 
 
 class Header extends React.Component{
@@ -26,4 +27,4 @@ class Header extends React.Component{
     }
 }
 
-ReactDom.render(<Header/>, document.getElementById('root'))
+ReactDOM.render(<Header/>, document.getElementById('root'))
